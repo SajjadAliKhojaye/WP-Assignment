@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <table border="2">
+        <h1>MYSQL DATABASE</h1>
+        <form action="sqlclient.php" method="POST">
+            <tr>
+            <td>Server Name <input type="text" name= "sname" placeholder="localhost" required></td>
+            </tr>
+
+            <tr>
+            <td>MYSQL User <input type="text" name= "user" placeholder="root" required></td>
+            </tr>
+
+            <tr>
+            <td>MYSQL Password <input type="password" name= "pass" placeholder="" ></td>
+            </tr>
+
+            <tr>
+            <td>MYSQL Database <input type="text" name= "dbase" placeholder="" ></td>
+            </tr>
+    
+            <tr>
+            <td>(NOTE: Leave database blank if creating a database)</td>
+            </tr>
+            
+            <tr>
+            <td><textarea id="text_area" name="tarea" rows="10" cols="50"></textarea></td>
+            </tr>
+            
+            <tr>
+            <td><input type="submit" value="GO"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
